@@ -3,6 +3,21 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
+	var primerNumero;
+	var segundoNumero;
 
+
+	primerNumero = numeroUno.value;
+	segundoNumero = numeroDos.value;
+
+
+	primerNumero=parseInt(primerNumero);
+	segundoNumero=parseInt(segundoNumero);
+
+
+
+	alert(primerNumero+segundoNumero);
+
+ 
 }
 

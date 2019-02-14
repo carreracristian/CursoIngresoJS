@@ -7,17 +7,16 @@ function mostrar()
 	eCivil = document.getElementById('estadoCivil').value;
 
 
-	if (suEdad < 18 && eCivil != "soltero") {
-		
-
-		alert("Es muy pequeño para NO ser soltero");
-
+	if (suEdad >= 18 ) {
 
 	} else {
+		(suEdad < 18 && eCivil != "Soltero")
 
-
+		alert("Es muy joven para NO ser soltero");
 	}
-//tomo la edad  
+//tomo la edad  s muy pequeño para NO ser soltero");
+
+
 
 	
 

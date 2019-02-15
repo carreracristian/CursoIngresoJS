@@ -5,6 +5,7 @@ function sumar()
 {
 	var primerNumero;
 	var segundoNumero;
+	var suma;
 
 
 	primerNumero = numeroUno.value;
@@ -15,8 +16,18 @@ function sumar()
 	segundoNumero=parseInt(segundoNumero);
 
 
+	//hola soy un puto comentario de linea
+	/*  */
+	
+	suma = primerNumero + segundoNumero;
 
-	alert(primerNumero+segundoNumero);
+	alert("la suma es " + suma);
+
+
+
+
+	//alert("la suma es "+primerNumero+segundoNumero);
+	//lo de arriba no fu nciona concatena todo
 
  
 }

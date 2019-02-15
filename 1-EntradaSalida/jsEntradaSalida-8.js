@@ -6,6 +6,7 @@ function SacarResto()
 {
 	var primerNumero;
 	var segundoNumero;
+	var resto;
 
 
 	primerNumero = numeroDividendo.value;
@@ -15,9 +16,9 @@ function SacarResto()
 	primerNumero=parseInt(primerNumero);
 	segundoNumero=parseInt(segundoNumero);
 
+	resto = primerNumero%segundoNumero;
 
-
-	alert(primerNumero%segundoNumero);
+	alert("el resto es "+ resto);
 
  
 	

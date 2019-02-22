@@ -9,6 +9,4 @@ function mostrar()
 		contador = contador + 1;
 		console.log(contador);
 	}
-
-
-}//FIN DE LA FUNCIÓN
+}

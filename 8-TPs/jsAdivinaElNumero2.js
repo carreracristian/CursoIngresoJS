@@ -11,10 +11,14 @@ Más de 10 intentos: “afortunado en el amor!!”.*/
 
 var numeroSecreto; 
 var contadorIntentos;
+var mensaje;
 
 function comenzar()
-{
+{numeroSecreto = Math.floor(Math.random() * 100);
+	console.log(numeroSecreto);
+
 	//Genero el número RANDOM entre 1 y 100
+	contadorIntentos = 0;
 	 
 	
 
@@ -22,6 +26,57 @@ function comenzar()
 
 function verificar()
 {
+	var elNumero;
+
+	contadorIntentos= contadorIntentos + 1;
+
+	elNumero = numero.value;
+	console.log(elNumero);
+	if (elNumero == numeroSecreto) 
+	{
+		switch(contadorIntentos)
+		{
+			case "1":
+			mensaje = "usted es un Psiquico"
+	  		break;
+	  		case "2":
+	  		mensaje = "excelente percepcion"
+	  		break;
+	  		case "3":
+			mensaje = "Esto es suerte"
+	  		break;
+	  		case "4":
+	  		mensaje = "Excelente técnica"
+	  		break;
+	  		case "5":
+			mensaje = "usted está en la media"
+	  		break;
+	  		case "6":
+	  		case "7":
+	  		case "8":
+	  		case "9":
+	  		case "10":
+	  		mensaje = "falta técnica"
+	  		break;
+	  		default:
+	  		mensaje = "afortunado en el amor!!"
+
+		}
+		else
+		{
+		if (elNumero>numeroSecreto) 
+		{
+		mensaje=("se paso");
+		}
+		}
+		else 
+		{
+		mensaje=("te falta");
+		}
+	}
+	intentos.value = contadorIntentos;
+	alert(mensaje);
+	
 	
 	
 

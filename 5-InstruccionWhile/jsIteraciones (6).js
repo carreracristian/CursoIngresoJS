@@ -1,6 +1,7 @@
 function mostrar()
 {
-
+	var numero;
+	var suma=0;
 	var contador=0;
 	var acumulador=0;
 

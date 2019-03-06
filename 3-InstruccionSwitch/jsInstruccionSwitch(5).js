@@ -1,28 +1,15 @@
 function mostrar()
 {
-//tomo la edad  
-var laHora;
-var Info;
-laHora = document.getElementById('hora').value;
-switch(laHora)
-{
-	case "7":
-	case "8":
-	case "9":
-	case "10":
-	case "11":
-		info = "Es de mañana"
-	break;
-	default:
-		info = "No es de mañana"
-	break;
+	var laHora;
+	var mensaje;
+
+	laHora=hora.value;
+	laHora=parseInt(laHora);
+
+	switch(laHora)
+	{
+		
+	}
+
+	alert(mensaje);
 }
-alert(info);
-
-//alert (laHora);
-	
-	
-
-
-
-}//FIN DE LA FUNCIÓN

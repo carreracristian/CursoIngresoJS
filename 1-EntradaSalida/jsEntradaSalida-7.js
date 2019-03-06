@@ -4,7 +4,7 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {
-var primerNumero;
+    var primerNumero;
 	var segundoNumero;
 	var suma;
 
@@ -71,7 +71,7 @@ function multiplicar()
 	
 	multi = primerNumero * segundoNumero;
 
-	alert("la multi es " + multi);
+	alert("la multiplicacion es " + multi);
 
 	
 }
@@ -99,4 +99,3 @@ function dividir()
 	alert("la division es " + dividir);
 	
 }
-

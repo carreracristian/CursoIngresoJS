@@ -7,16 +7,13 @@ function mostrarAumento()
 	var elSueldo;
 	var cuenta;
 
-
-	elSueldo = sueldo.value;
+	elSueldo=sueldo.value;
 
 	elSueldo=parseInt(elSueldo);
+	cuenta=elSueldo*1.1; 
+	resultado.value=cuenta;
+
 	
-	cuenta = elSueldo * 1.10;
-
-	resultado.value =cuenta;
-
-
 	
 
 	

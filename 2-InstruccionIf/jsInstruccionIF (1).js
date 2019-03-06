@@ -2,16 +2,14 @@ function mostrar()
 {
 	var suEdad;
 
-	suEdad = document.getElementById('edad').value;
+	suEdad=edad.value;
 
-	if (suEdad == 15) {
+	if (suEdad == 15) 
+	{
+		alert("Niña bonita");
+	} 	 
 
-		alert("niña bonita")
 
-
-
-
-	}
 
 
 //tomo la edad  

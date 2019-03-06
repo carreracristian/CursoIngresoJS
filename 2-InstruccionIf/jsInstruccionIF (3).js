@@ -2,22 +2,23 @@ function mostrar()
 {
 	var suEdad;
 
-	suEdad = document.getElementById('edad').value;
+	suEdad=edad.value;
 
-	if (suEdad >= 18) {
-
-		alert("Es mayor de edad");
-
-
-
-	} else {
-
-
-		alert("Es menor de edad");
-
-
-
+	if (suEdad>17) 
+	{
+		alert("Es mayor");
+	}	
+	else
+	{
+		alert("Es menor");
 	}
+
+	
+	
+
+
+
+	
 //tomo la edad  
 
 

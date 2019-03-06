@@ -2,27 +2,23 @@
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
-{
-	var primerNumero;
-	var segundoNumero;
+{	
+	var pNumero;
+	var sNumero;
 	var suma;
 
+	pNumero=numeroUno.value;
+	sNumero=numeroDos.value;
 
-	primerNumero = numeroUno.value;
-	segundoNumero = numeroDos.value;
+	pNumero=parseInt(pNumero);
+	sNumero=parseInt(sNumero);
+
+	suma=pNumero+sNumero;
+
+	alert(suma);
 
 
-	primerNumero=parseInt(primerNumero);
-	segundoNumero=parseInt(segundoNumero);
-
-
-	//hola soy un puto comentario de linea
-	/*  */
 	
-	suma = primerNumero + segundoNumero;
-
-	alert("la suma es " + suma);
-
 
 
 

@@ -1,23 +1,24 @@
 function mostrar()
 {
 	var suEdad;
+	var mensaje;
 
-	suEdad = document.getElementById('edad').value;
+	suEdad=edad.value;
 
-	if (suEdad >= 18) {
+	if (suEdad<13) 
+		{
+			mensaje="Es Niño";
+		} 
+		else if (suEdad>17) 
+			{
+				mensaje="Es mayor";
+			} 
+			else 
+			{
+				mensaje="Es adolescente";
+			}
 
-		alert("Es mayor de edad");
-
-
-	} else {
-		if (suEdad < 13) {
-
-			alert("Es menor");
-		} else {
-			alert("Es adolescente");
-		}
-	}
-
+			alert(mensaje);
 //tomo la edad  
 
 

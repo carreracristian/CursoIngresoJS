@@ -1,29 +1,23 @@
 function mostrar()
 {
 	var nota;
+	var mensaje;
 
-	nota = numero = Math.floor((Math.random() * 10) + 1);
-
-	if (nota <= 4) {
-
-		alert("Vamos, la proxima se puede");
-	} else {
-		if (nota > 4 && nota < 9) {
-
-			alert("APROBO");
-
-		} else {
-
-			(nota == 9 || nota == 10)
-
-			alert("EXCELENTE");
-			
-		}
-		
-
-
-
-	//Genero el número RANDOM entre 1 y 10 
-	
-}
+	nota = Math.floor((Math.random() * 10) + 1);
+	if (nota>8) 
+		{
+			mensaje="EXCELENTE";
+		} 
+		else 
+			{
+				if (nota>3) 
+				{
+					mensaje="APROBO";
+				} 
+				else 
+				{
+					mensaje="Vamos, la proxima se puede";
+				}	
+			}
+	alert("Su nota es "+nota+" "+mensaje);
 }//FIN DE LA FUNCIÓN

@@ -4,9 +4,9 @@ function mostrar()
 {
 	var nombre;
 
-	nombre = prompt("ingrese su nombre");
-
-	alert("su nombre es " +nombre);
+	nombre=prompt("Ingrese su nombre");
+	
+	alert("Su nombre es "+nombre);	
 
 
 
